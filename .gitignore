@@ -1,5 +1,5 @@
 .env
 __pycache__/
 *.pyc
-temp/*
-# farm_management.db
+temp/
+!temp/.gitkeep
