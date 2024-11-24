@@ -1,0 +1,12 @@
+streamlit
+langchain
+openai
+python-dotenv
+sqlalchemy
+pandas
+streamlit-chat
+matplotlib
+requests
+azure-openai
+langchain-openai
+pyowm
