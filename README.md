@@ -16,7 +16,7 @@ Dzięki agentom LLM.
 
 A jak dokładnie to działa, dowiecie się w swoim czasie.
 
-![alt text](static\app_screenshot.png)
+![Screenshot apki](static/app_screenshot.png)
 
 **Proces uruchomienia aplikacji**
 Aby uruchomić aplikację lokalnie u siebie na komputerze, trzeba na początku sklonować to repo.
