@@ -2,16 +2,18 @@
 
 import os
 import sqlite3
-import tempfile  # Add this import
-from typing import Any, Dict, List
+import tempfile
+from typing import Any, List
+
 from langchain.agents import Tool, AgentExecutor, create_react_agent
-from langchain_openai import AzureChatOpenAI
 from langchain.schema import HumanMessage
+from langchain_openai import AzureChatOpenAI
 from sqlalchemy import create_engine, text
 import pandas as pd
+
 from tools.visualization_tool import draw_bar_chart
 from tools.weather_tool import get_weather
-from .simple_chat_memory import SimpleChatMemory, Message, Role
+from .simple_chat_memory import SimpleChatMemory, Message
 from .prompts import react_agent_prompt_template
 
 class SQLRAGWorkflow:

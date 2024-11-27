@@ -9,4 +9,5 @@ matplotlib
 requests
 azure-openai
 langchain-openai
+langchain_community
 pyowm
